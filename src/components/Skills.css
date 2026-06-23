@@ -1,0 +1,13 @@
+.skillItem{
+    list-style-type: none;
+}
+
+.skillContainer{
+    font-size: 20px;
+}
+
+.title{
+    background-color: red;
+    padding: 10px;
+    color: white;
+}
