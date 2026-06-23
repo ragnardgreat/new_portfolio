@@ -1,0 +1,17 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#itemList{
+    list-style-type: none;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.headerItem{
+    background-color: red;
+    width: fit-content;
+    font-size: 20px;
+    padding: 10px;
+}
