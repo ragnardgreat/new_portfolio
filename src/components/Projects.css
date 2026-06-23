@@ -1,0 +1,21 @@
+#projects{
+    justify-content: center;
+    width: 50%;
+}
+
+#minikino{
+    background-color: #f3e5ab;
+}
+
+#scl{
+    background-color: pink;
+}
+
+
+#webstore{
+    background-color: orange;
+}
+
+.projectContainer{
+    padding: 10px;
+}

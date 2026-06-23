@@ -1,10 +1,26 @@
-import React from 'react'
 import "./Projects.css"
 
 function Projects() {
-  return (
-    <div>Projects</div>
-  )
+    return (
+        <div id='projects'>
+            <h1 className='containerTitle'>Projects</h1>
+            <div id="minikino" className="projectContainer">
+                <h2 className="projectTitle">Minikino</h2>
+                <label>Description:</label>
+                <h2 className="projectLinks">Links: </h2>
+            </div>
+            <div id="scl" className="projectContainer">
+                <h2>SCL.</h2>
+                <label>Description:</label>
+                <h2 className="projectLinks">Links: </h2>
+            </div>
+            <div id="webstore" className="projectContainer">
+                <h2>Real Webstore</h2>
+                <label>Description:</label>
+                <h2 className="projectLinks">Links: </h2>
+            </div>
+        </div>
+    )
 }
 
 export default Projects

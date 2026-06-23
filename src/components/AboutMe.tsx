@@ -1,10 +1,9 @@
-import React from 'react'
 import './AboutMe.css'
 
 function AboutMe() {
     return (
     <div id='aboutMeContainer'>
-        <h1>Roland Piperal</h1>
+        <h1 className='containerTitle'>Roland Piperal</h1>
         <h3>Wep Developer, 4+ years</h3><br/>
         <p>Currentl I am a student at Tallinn University, but before that I already had Web development experience of 3 years from studying on my own.</p>
         <p>Main sources for education were YouTube and FreeCodeCamp</p>
