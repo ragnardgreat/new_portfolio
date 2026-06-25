@@ -1,0 +1,16 @@
+.containerTitle{
+  position: relative;
+  margin-top: 10vw;
+  width: fit-content;
+  height: 80vh;
+  font-size: 60px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 0px 60px;
+}
+
+#name, #desc{
+    margin: 0px;
+    width: fit-content;
+}

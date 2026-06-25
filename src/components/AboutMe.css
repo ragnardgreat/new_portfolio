@@ -1,3 +1,16 @@
 p{
     font-size: 20px;
 }
+
+#aboutMeContainer{
+    padding: 0px 80px 80px 80px;
+    margin: 40px;
+    background-color: black;
+    color:white
+}
+
+#aboutMeText{
+    width: fit-content;
+    background-color: black;
+    color:white;
+}

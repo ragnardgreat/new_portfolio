@@ -1,34 +1,64 @@
 import "./Skills.css"
 
 function Skills() {
-    return (
-        <div className='containerTitle' id='skillsContainer'>
-            <h1>Skills</h1>
-            <div id='frontContainer' className='skillContainer'>
-                <label className='skillsTitle' htmlFor='frontSkills'>Frontend: </label>
-                <ul id='frontSkills'>
-                    <li className="skillItem">TypeScript / JavaScript</li>
-                    <li className="skillItem">React</li>
-                    <li className="skillItem">Express</li>
-                    <li className="skillItem">HTML</li>
-                </ul>
-            </div><br/>
-            <div id="backContainer" className='skillContainer'>
-                <label className='skillsTitle' htmlFor="backSkills">Backend:</label>
-                <ul id="backSkills">
-                    <li className="skillItem">Java</li>
-                    <li className="skillItem">MySQL</li>
-                    <li className="skillItem">postgreSQL</li>
-                </ul>
-            </div><br/>
-            <div id="controlContainer" className='skillContainer'>
-                <label className='skillsTitle' htmlFor="">Version Control:</label>
-                <ul id='verControl'>
-                    <li className="skillItem">GitHub</li>
-                </ul>
+
+    const feScroll1 = [
+        "TypeScript",
+        "React",
+        "HTML",
+        "CSS",
+        "TypeScript",
+        "React",
+        "HTML",
+        "CSS"
+    ]
+
+    const beScroll = [
+        "Java",
+        "MySQL",
+        "postgreSQL",
+        "Java",
+        "MySQL",
+        "postgreSQL"
+
+    ]
+
+
+    return (<>
+        <div id='frontContainer' className='skillContainer'>
+            <div className='skillsTitle'>Frontend: </div>
+            <div id="frontCards" className="carousel">
+                <div id="feGroup1" className="group">
+                    {feScroll1.map(item =>
+                        <h1 className="card">{item}</h1>
+                    )}
+                </div>
+                <div aria-hidden id="feGroup1" className="group">
+                    {feScroll1.map(item =>
+                        <h1 className="card">{item}</h1>
+                    )}
+                </div>
             </div>
-            <hr />
+        </div><br />
+        <div id="backContainer" className='skillContainer'>
+            <div className='skillsTitle'>Backend: </div>
+            <div id="backNames" className="skillNames">
+                <div id="backCards" className="carousel">
+                    <div id="BeGroup1" className="group">
+                        {beScroll.map(item =>
+                            <h1 className="card">{item}</h1>
+                        )}
+                    </div>
+                    <div id="BeGroup1" className="group">
+                        {beScroll.map(item =>
+                            <h1 className="card">{item}</h1>
+                        )}
+                    </div>
+                </div>
+            </div>
         </div>
+    </>
+
     )
 }
 

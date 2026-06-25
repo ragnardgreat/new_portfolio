@@ -1,9 +1,9 @@
 import "./Projects.css"
 
 function Projects() {
-    return (
+    return (<>
         <div id='projects'>
-            <h1 className='containerTitle'>Projects</h1>
+            <h1 id='projectsTitle'>Projects</h1>
             <div id="minikino" className="projectContainer">
                 <h2 className="projectTitle">Minikino</h2>
                 <label>Description:</label>
@@ -20,6 +20,8 @@ function Projects() {
                 <h2 className="projectLinks">Links: </h2>
             </div>
         </div>
+        <hr></hr>
+    </>
     )
 }
 

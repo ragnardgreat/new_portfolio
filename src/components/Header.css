@@ -3,11 +3,16 @@
     display: flex;
     gap: 100px;
     justify-content: center;
+    margin: 0px;
+    padding: 10px;
 }
 
 .headerItem{
-    background-color: red;
+    background-color: black;
+    color: white;
+    font-weight: bold;
     width: fit-content;
     font-size: 20px;
     padding: 10px;
+    border-radius: 20px;
 }
