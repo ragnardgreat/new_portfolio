@@ -1,21 +1,35 @@
-#projects{
-    justify-content: center;
-    width: 50%;
+#projects {
+    display: flex;
+    padding: 0px 80px 80px 80px;
+    margin: 40px;
+    color: black;
+    flex-direction: column;
 }
 
-#minikino{
+#minikino {
     background-color: #f3e5ab;
 }
 
-#scl{
+#scl {
     background-color: pink;
 }
 
 
-#webstore{
+#webstore {
     background-color: orange;
 }
 
-.projectContainer{
+.projectContainer {
     padding: 10px;
+    margin-bottom: 20px;
+}
+
+.projectContainer>ul{
+    list-style-type: none;
+}
+
+#title {
+    color: black;
+    font-weight: bold;
+    font-size: 32px;
 }

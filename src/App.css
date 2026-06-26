@@ -2,8 +2,28 @@ body {
     padding: 0px;
     margin: 0px;
     font-family: "Quicksand";
-    background-color: black;
-    color:white;
-    
+    background: white;
+    color: black;
+    animation: nameFade 2s linear;
 }
 
+
+@keyframes bgFadeWhite {
+    0% {
+        background-color: black;
+    }
+
+    100% {
+        background-color: white;
+    }
+}
+
+@keyframes bgFadeBlack {
+    0% {
+        background-color: white;
+    }
+
+    100% {
+        background-color: black;
+    }
+}

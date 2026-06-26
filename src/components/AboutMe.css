@@ -1,16 +1,36 @@
-p{
+p {
     font-size: 20px;
 }
 
-#aboutMeContainer{
+#aboutMeContainer {
+    display: flex;
     padding: 0px 80px 80px 80px;
     margin: 40px;
-    background-color: black;
-    color:white
+    color: white;
 }
 
-#aboutMeText{
+#aboutMeText {
     width: fit-content;
-    background-color: black;
-    color:white;
+    color: white;
 }
+
+@keyframes nameFadeIn {
+    0% {
+        color: white;
+    }
+
+    100% {
+        color: black;
+    }
+}
+
+@keyframes nameFadeOut {
+    0% {
+        color: black;
+    }
+
+    100% {
+        color: white;
+    }
+}
+
