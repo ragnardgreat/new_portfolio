@@ -11,7 +11,7 @@
 }
 
 #scl {
-    background-color: pink;
+    background-color: rgb(255, 255, 255);
 }
 
 
@@ -20,13 +20,46 @@
 }
 
 .projectContainer {
-    padding: 10px;
+    padding: 30px;
     margin-bottom: 20px;
+    text-align: center;
+    border: 3px solid black;
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    margin-bottom:20px ;
 }
 
-.projectContainer>ul{
+.projectText {
+    padding: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    flex-direction: column;
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.projectContainer>ul {
     list-style-type: none;
 }
+
+p {
+    font-weight: normal;
+}
+
+.linkBtn{
+    width: fit-content;
+    margin: auto;
+}
+
 
 #title {
     color: black;
