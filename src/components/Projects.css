@@ -2,32 +2,36 @@
     display: flex;
     padding: 0px 80px 80px 80px;
     margin: 40px;
+    gap: 20px;
     color: black;
     flex-direction: column;
 }
 
 #minikino {
-    background-color: #f3e5ab;
+    background: #F3E5AB;
+    background: linear-gradient(180deg, rgba(243, 229, 171, 1) 0%, rgba(186, 207, 140, 1) 100%);
 }
 
 #scl {
-    background-color: rgb(255, 255, 255);
+    background: #ffffff;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 192, 203, 1) 74%);
 }
 
 
 #webstore {
-    background-color: orange;
+    background: #f2c202;
+    background: linear-gradient(180deg, rgba(242, 194, 2, 1) 0%, rgba(199, 129, 0, 1) 100%);
 }
 
 .projectContainer {
-    padding: 30px;
+    position: relative;
     margin-bottom: 20px;
     text-align: center;
     border: 3px solid black;
     display: flex;
     width: fit-content;
+    margin-bottom: 20px;
     margin: auto;
-    margin-bottom:20px ;
 }
 
 .projectText {
@@ -35,7 +39,7 @@
     margin-bottom: 20px;
     text-align: center;
     display: flex;
-    width: fit-content;
+    width: 500px;
     margin: auto;
     flex-direction: column;
 }
@@ -45,6 +49,8 @@
     justify-content: center;
     align-items: center;
     height: 300px;
+    margin: auto;
+    padding: 20px;
 }
 
 .projectContainer>ul {
@@ -55,14 +61,171 @@ p {
     font-weight: normal;
 }
 
-.linkBtn{
+.linkBtn {
+    position: relative;
     width: fit-content;
     margin: auto;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 10px;
+    border: 3px solid black;
+    cursor: pointer;
+    width: fit-content;
+    bottom: 0px;
+    transition: .2s linear;
 }
 
+.linkBtn:hover {
+    bottom: 5px;
+    transition: .2s linear;
+    background-color: rgba(255, 255, 255, 0.37);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
 
 #title {
     color: black;
     font-weight: bold;
     font-size: 32px;
+    text-align: center;
+}
+
+@keyframes slideIn {
+    0% {
+        position: relative;
+        left: -100%;
+    }
+
+    60% {
+        position: relative;
+        left: 50px;
+    }
+
+    90% {
+        position: relative;
+        left: -10px;
+    }
+
+    100% {
+        position: relative;
+        left: 0px;
+    }
+}
+
+@keyframes slideOut {
+    0% {
+        position: relative;
+        left: 0px;
+    }
+
+    100% {
+        position: relative;
+        left: -100%;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    #projects {
+        display: flex;
+        color: black;
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    #title {
+        width: 600px;
+        font-size: 50px;
+    }
+
+    .imgContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding-top: 60px;
+        padding-bottom: 0px;
+    }
+
+    .projectTitle {
+        width: 400px;
+    }
+
+    .projectContainer {
+        margin-bottom: 20px;
+        text-align: center;
+        border: 3px solid black;
+        display: flex;
+        margin-bottom: 20px;
+        flex-direction: column;
+    }
+
+    .projectText {
+        padding: 30px;
+        padding-top: 0px;
+        margin-bottom: 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 30px;
+    }
+
+    @keyframes slideIn {
+        0% {
+            position: relative;
+            left: -200%;
+        }
+
+        60% {
+            position: relative;
+            left: 10px;
+        }
+
+        60% {
+            position: relative;
+            left: 25px;
+        }
+
+        100% {
+            position: relative;
+            left: 15px;
+        }
+    }
+
+    @keyframes slideOut {
+        0% {
+            position: relative;
+            left: 0px;
+        }
+
+        100% {
+            position: relative;
+            left: -200%;
+        }
+    }
+
+    .linkBtn {
+        position: relative;
+        width: fit-content;
+        margin: auto;
+        background-color: white;
+        font-size: 60px;
+        font-weight: bold;
+        padding: 5px;
+        border-radius: 10px;
+        border: 3px solid black;
+        cursor: pointer;
+        width: fit-content;
+        bottom: 0px;
+        transition: .2s linear;
+    }
 }

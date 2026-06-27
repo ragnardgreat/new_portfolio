@@ -7,6 +7,14 @@ body {
     animation: nameFade 2s linear;
 }
 
+html,
+#root,
+body,
+#app,
+#app>div {
+    height: 100%;
+    width: 100%;
+}
 
 @keyframes bgFadeWhite {
     0% {

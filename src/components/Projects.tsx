@@ -1,58 +1,92 @@
 import "./Projects.css"
 
 function Projects() {
+
+    window.addEventListener("scroll", () => {
+        if (checkVisible(document.getElementById("realText")!)) {
+            document.getElementById("webstore").style.animation = "slideIn 1s forwards"
+        }
+        else {
+            document.getElementById("webstore").style.animation = "slideOut 1s forwards"
+        }
+        if (checkVisible(document.getElementById("sclText")!)) {
+            document.getElementById("scl").style.animation = "slideIn 1s forwards"
+        }
+        else {
+            document.getElementById("scl").style.animation = "slideOut 1s forwards"
+        }
+        if (checkVisible(document.getElementById("miniText")!)) {
+            document.getElementById("minikino").style.animation = "slideIn 1s forwards"
+        }
+        else {
+            document.getElementById("minikino").style.animation = "slideOut 1s forwards"
+        }
+    })
+
+    function checkVisible(elm: HTMLElement) {
+        const rect = elm.getBoundingClientRect();
+        const viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
+        return !(rect.bottom < 0 || rect.top - viewHeight >= 0);
+    }
+
     return (<>
         <div id='projects'>
             <h1 id='title'>Projects</h1>
-            <div id="minikino" className="projectContainer">
+            <div id="webstore" className="projectContainer" >
                 <div className="imgContainer">
-                    <img src="./public/minikino.svg" className="projectTitle" width={300} /><br></br><br></br>
+                    <img id="realLogo" src="./public/real.png" className="projectTitle" width={300} /><br></br><br></br>
                 </div>
-                <div className="projectText">
+                <div id="realText" className="projectText">
                     <h3>
-                        <p>Features</p>
-                        Image, video and audio file upload<br />
-                        Interactive game creation<br />
-                        Game step editing<br />
-                        Multiple categories
+                        <p>2024</p>
+                        <p>About</p>
+                        A webstore built with <a style={{"color":"blue"}} href="https://fakestoreapi.com/" target="_blank">fakestoreapi</a>.<br />
+                        Features account login, storepages and add to cart<br />
+                        Although simple, it still provides an effective and undestandable website
                         <p>Making of</p>
-                        This project was built in a 5 member team in the span of 3 weeks,<br /> in an internship provided by Tallinn University
+                        Built this project back in ~2024 in 1-2 weeks<br /> back when web development was newer to me
+                        <p>Built with</p>
+                        JavaScript<br />React<br />React router
                     </h3>
-                    <button className="linkBtn">GitHub</button>
+                    <button className="linkBtn"><img src="./public/github.png" width={30}></img><a id="storBtn" href="https://github.com/ragnardgreat/store-app" target="_blank">GitHub</a></button>
                 </div>
             </div>
             <div id="scl" className="projectContainer">
                 <div className="imgContainer">
-                    <img src="./public/scl.png" className="projectTitle" width={300} /><br></br><br></br>
+                    <img id="sclLogo" src="./public/scl.png" className="projectTitle" width={300} /><br></br><br></br>
                 </div>
-                <div className="projectText">
+                <div id="sclText" className="projectText">
                     <h3>
-                        <p>Features</p>
-                        Image, video and audio file upload<br />
-                        Interactive game creation<br />
-                        Game step editing<br />
-                        Multiple categories
+                        <p>2025</p>
+                        <p>About</p>
+                        A social media platform, similat to instagram or X, <br />
+                        with functional account and post creation and editing.
                         <p>Making of</p>
-                        This project was built in a 5 member team in the span of 3 weeks,<br /> in an internship provided by Tallinn University
+                        I built this project alone in 2025 in the span of 2-3 months.<br />
+                        One of my bigger personal projects.<br />
+                        Bigger focus went to backend due to the difficult nature.
+                        <p>Built with</p>
+                        Node/express<br />JavaScript<br />React<br /> MySQL
                     </h3>
-                    <button className="linkBtn">GitHub</button>
+                    <button className="linkBtn"><img src="./public/github.png" width={30}></img> <a id="sclBtn" href="https://github.com/ragnardgreat/scl-app" target="_blank">GitHub</a></button>
                 </div>
             </div>
-            <div id="webstore" className="projectContainer">
+            <div id="minikino" className="projectContainer">
                 <div className="imgContainer">
-                    <img src="./public/real.png" className="projectTitle" width={300} /><br></br><br></br>
+                    <img id="miniLogo" src="./public/minikino.svg" className="projectTitle" width={300} /><br></br><br></br>
                 </div>
-                <div className="projectText">
+                <div id="miniText" className="projectText">
                     <h3>
-                        <p>Features</p>
-                        Image, video and audio file upload<br />
-                        Interactive game creation<br />
-                        Game step editing<br />
-                        Multiple categories
+                        <p>2026</p>
+                        <p>About</p>
+                        A website to teach children about media,<br />
+                        throught interactive games about image, video and audio editing.
                         <p>Making of</p>
                         This project was built in a 5 member team in the span of 3 weeks,<br /> in an internship provided by Tallinn University
+                        <p>Built with</p>
+                        Java<br /> TypeScript<br />React<br /> postgreSQL
                     </h3>
-                    <button className="linkBtn">GitHub</button>
+                    <button className="linkBtn"><img src="./public/github.png" width={30}></img> <a  id="minibtn" href="https://github.com/Shargathx/Cinimini_project" target="_blank">GitHub</a></button>
                 </div>
             </div>
         </div>

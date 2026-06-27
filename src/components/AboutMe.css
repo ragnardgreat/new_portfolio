@@ -4,6 +4,7 @@ p {
 
 #aboutMeContainer {
     display: flex;
+    flex-direction: column;
     padding: 0px 80px 80px 80px;
     margin: 40px;
     color: white;
@@ -11,7 +12,16 @@ p {
 
 #aboutMeText {
     width: fit-content;
-    color: white;
+    color: black;
+    display: block;
+}
+
+#aboutImgContainer{
+    margin: auto;
+}
+#aboutImg{
+    border: 5px solid black;
+    border-radius: 50%;
 }
 
 @keyframes nameFadeIn {
@@ -33,4 +43,23 @@ p {
         color: white;
     }
 }
+
+@media  (max-width: 550px) {
+  #aboutMeText {
+    font-size: 50px;
+  }
+
+  #aboutImg{
+    width: 500px;
+  }
+
+  #desc{
+    font-size: 30px;
+  }
+
+  #aboutMeContainer{
+    padding: 0px
+  }
+}
+
 

@@ -2,13 +2,33 @@ import "./Contact.css"
 
 function Contact() {
   return (<>
-  <div id='contactContainer'>
-    <h1>Contacts and GitHub</h1>
-    <div className="contactItem">LinkedIn</div>
-    <div className="contactItem">GitHub1</div>
-    <div className="contactItem">GitHub2</div>
-  </div>
-  
+    <h1 id="contactTitle">Contact:</h1>
+    <div id='contactContainer'>
+      <a className="contactItem" href="https://www.linkedin.com/in/roland-piperal-932a4a347/" target="_blank">
+        <div className="contact">
+          <div className="contactImgContainer">
+            <img src="./public/linkedin.png" width={60}></img>
+          </div>
+          <h1>LinkedIn</h1>
+        </div>
+      </a>
+      <a className="contactItem" href="https://github.com/ragnardgreat" target="_blank">
+        <div className="contact">
+          <div className="contactImgContainer">
+            <img src="./public/github.png" width={60}></img>
+          </div>
+          <h1>Github: ragnardgreat</h1>
+        </div>
+      </a>
+      <a className="contactItem" href="https://github.com/piperal/" target="_blank">
+        <div className="contact">
+          <div className="contactImgContainer">
+            <img src="./public/github.png" width={60}></img>
+          </div>
+          <h1>Github: piperal</h1>
+        </div>
+      </a>
+    </div >
   </>
   )
 }
