@@ -43,10 +43,10 @@ function Projects() {
                         <p>2024</p>
                         <p>About</p>
                         A webstore built with <a style={{ "color": "blue" }} href="https://fakestoreapi.com/" target="_blank">fakestoreapi</a>.<br />
-                        Features account login, storepages and add to cart<br />
-                        Although simple, it still provides an effective and undestandable website
+                        Features account login, product pages, and a shopping cart<br />
+                        Although simple, it still provides an effective and understandable website
                         <p>Making of</p>
-                        Built this project back in ~2024 in 1-2 weeks<br /> back when web development was newer to me
+                        Built this project back in 2024 in 1-2 weeks<br /> back when web development was still new to me.
                         <p>Built with</p>
                         JavaScript<br />React<br />React router
                     </h3>
@@ -63,14 +63,14 @@ function Projects() {
                     <h3>
                         <p>2025</p>
                         <p>About</p>
-                        A social media platform, similar to instagram or X, <br />
+                        A social media platform, similar to Instagram or X, <br />
                         with functional account and post creation and editing.
                         <p>Making of</p>
-                        I built this project alone in 2025 in the span of 2-3 months.<br />
+                        I built this project independently in 2025 over the course of 2-3 months.<br />
                         One of my bigger personal projects.<br />
                         I learned many new skills thanks to this project
                         <p>Built with</p>
-                        Node/express<br />JavaScript<br />React<br /> MySQL
+                        Node.js/express<br />JavaScript<br />React<br /> MySQL
                     </h3>
                     <p>More info on</p>
                     <button className="linkBtn"><img src="github.png" width={20}></img> <a id="sclBtn" href="https://github.com/ragnardgreat/scl-app" target="_blank">GitHub</a></button>
@@ -84,12 +84,12 @@ function Projects() {
                     <h3>
                         <p>2026</p>
                         <p>About</p>
-                        A website to teach children about media
-                        throught interactive games about image, video, and audio editing.
+                        A website to teach children about media literacy
+                        through interactive games about image, video, and audio editing.
                         <p>Making of</p>
-                        This project was built in a 5 member team in the span of 3 weeks<br /> in an internship provided by Tallinn University
+                        This project was built in a 5 member team in the span of 3 weeks<br /> as part of an internship provided by Tallinn University.
                         <p>Built with</p>
-                        Java<br /> TypeScript<br />React<br /> postgreSQL
+                        Java<br />Spring Boot<br /> TypeScript<br />React<br /> PostgreSQL
                     </h3>
                     <p>More info on</p>
                     <button className="linkBtn"><img src="github.png" width={20}></img> <a id="minibtn" href="https://github.com/Shargathx/Cinimini_project" target="_blank">GitHub</a></button>
