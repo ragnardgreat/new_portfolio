@@ -1,0 +1,37 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Quicksand";
+    background: white;
+    color: black;
+    animation: nameFade 2s linear;
+}
+
+html,
+#root,
+body,
+#app,
+#app>div {
+    height: 100%;
+    width: 100%;
+}
+
+@keyframes bgFadeWhite {
+    0% {
+        background-color: black;
+    }
+
+    100% {
+        background-color: white;
+    }
+}
+
+@keyframes bgFadeBlack {
+    0% {
+        background-color: white;
+    }
+
+    100% {
+        background-color: black;
+    }
+}
