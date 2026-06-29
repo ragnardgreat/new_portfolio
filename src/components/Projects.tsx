@@ -36,7 +36,7 @@ function Projects() {
             </h1>
             <div id="webstore" className="projectContainer" >
                 <div className="imgContainer">
-                    <img id="realLogo" src="./public/real.png" className="projectTitle" width={300} /><br></br><br></br>
+                    <img id="realLogo" src="./src/assets/real.png" className="projectTitle" width={300} /><br></br><br></br>
                 </div>
                 <div id="realText" className="projectText">
                     <h3>
@@ -51,13 +51,13 @@ function Projects() {
                         JavaScript<br />React<br />React router
                     </h3>
                     <p>More info on</p>
-                    <button className="linkBtn"><img src="./public/github.png" width={30}></img><a id="storBtn" href="https://github.com/ragnardgreat/store-app" target="_blank">GitHub</a></button>
+                    <button className="linkBtn"><img src="./src/assets/github.png" width={30}></img><a id="storBtn" href="https://github.com/ragnardgreat/store-app" target="_blank">GitHub</a></button>
                 </div>
             </div>
 
             <div id="scl" className="projectContainer">
                 <div className="imgContainer">
-                    <img id="sclLogo" src="./public/scl.png" className="projectTitle" width={300} /><br></br><br></br>
+                    <img id="sclLogo" src="./src/assets/scl.png" className="projectTitle" width={300} /><br></br><br></br>
                 </div>
                 <div id="sclText" className="projectText">
                     <h3>
@@ -78,7 +78,7 @@ function Projects() {
             </div>
             <div id="minikino" className="projectContainer">
                 <div className="imgContainer">
-                    <img id="miniLogo" src="./public/minikino.svg" className="projectTitle" width={300} /><br></br><br></br>
+                    <img id="miniLogo" src="./src/assets/minikino.svg" className="projectTitle" width={300} /><br></br><br></br>
                 </div>
                 <div id="miniText" className="projectText">
                     <h3>

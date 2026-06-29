@@ -7,7 +7,7 @@ function Contact() {
       <a className="contactItem" href="https://www.linkedin.com/in/roland-piperal-932a4a347/" target="_blank">
         <div className="contact">
           <div className="contactImgContainer">
-            <img src="./public/linkedin.png" width={60}></img>
+            <img src="./src/assets/linkedin.png" width={60}></img>
           </div>
           <h1>LinkedIn</h1>
         </div>
@@ -15,7 +15,7 @@ function Contact() {
       <a className="contactItem" href="https://github.com/ragnardgreat" target="_blank">
         <div className="contact">
           <div className="contactImgContainer">
-            <img src="./public/github.png" width={60}></img>
+            <img src="./src/assets/github.png" width={60}></img>
           </div>
           <h1>Github: ragnardgreat</h1>
         </div>
@@ -23,7 +23,7 @@ function Contact() {
       <a className="contactItem" href="https://github.com/piperal/" target="_blank">
         <div className="contact">
           <div className="contactImgContainer">
-            <img src="./public/github.png" width={60}></img>
+            <img src="./src/assets/github.png" width={60}></img>
           </div>
           <h1>Github: piperal</h1>
         </div>
