@@ -36,7 +36,7 @@ function Projects() {
             </h1>
             <div id="webstore" className="projectContainer" >
                 <div className="imgContainer">
-                    <img id="realLogo" src="./src/assets/real.png" className="projectTitle" width={300} /><br></br><br></br>
+                    <img id="realLogo" src="real.png" className="projectTitle" width={300} /><br></br><br></br>
                 </div>
                 <div id="realText" className="projectText">
                     <h3>
@@ -51,13 +51,13 @@ function Projects() {
                         JavaScript<br />React<br />React router
                     </h3>
                     <p>More info on</p>
-                    <button className="linkBtn"><img src="./src/assets/github.png" width={30}></img><a id="storBtn" href="https://github.com/ragnardgreat/store-app" target="_blank">GitHub</a></button>
+                    <button className="linkBtn"><img src="github.png" width={30}></img><a id="storBtn" href="https://github.com/ragnardgreat/store-app" target="_blank">GitHub</a></button>
                 </div>
             </div>
 
             <div id="scl" className="projectContainer">
                 <div className="imgContainer">
-                    <img id="sclLogo" src="./src/assets/scl.png" className="projectTitle" width={300} /><br></br><br></br>
+                    <img id="sclLogo" src="scl.png" className="projectTitle" width={300} /><br></br><br></br>
                 </div>
                 <div id="sclText" className="projectText">
                     <h3>
@@ -73,12 +73,12 @@ function Projects() {
                         Node/express<br />JavaScript<br />React<br /> MySQL
                     </h3>
                     <p>More info on</p>
-                    <button className="linkBtn"><img src="./public/github.png" width={30}></img> <a id="sclBtn" href="https://github.com/ragnardgreat/scl-app" target="_blank">GitHub</a></button>
+                    <button className="linkBtn"><img src="github.png" width={30}></img> <a id="sclBtn" href="https://github.com/ragnardgreat/scl-app" target="_blank">GitHub</a></button>
                 </div>
             </div>
             <div id="minikino" className="projectContainer">
                 <div className="imgContainer">
-                    <img id="miniLogo" src="./src/assets/minikino.svg" className="projectTitle" width={300} /><br></br><br></br>
+                    <img id="miniLogo" src="minikino.svg" className="projectTitle" width={300} /><br></br><br></br>
                 </div>
                 <div id="miniText" className="projectText">
                     <h3>
@@ -92,7 +92,7 @@ function Projects() {
                         Java<br /> TypeScript<br />React<br /> postgreSQL
                     </h3>
                     <p>More info on</p>
-                    <button className="linkBtn"><img src="./public/github.png" width={30}></img> <a id="minibtn" href="https://github.com/Shargathx/Cinimini_project" target="_blank">GitHub</a></button>
+                    <button className="linkBtn"><img src="github.png" width={30}></img> <a id="minibtn" href="https://github.com/Shargathx/Cinimini_project" target="_blank">GitHub</a></button>
                 </div>
             </div>
         </div>

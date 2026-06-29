@@ -10,48 +10,48 @@ function Skills() {
                 <div className='skillsTitle'>Frontend: </div>
                 <div id="frontCards" className="carousel">
                     <div id="feGroup1" className="group">
-                        <div className="card"><h1>TypeScript</h1><img src="./src/assets/typescript.png" width={40}></img></div>
-                        <div className="card"><h1>React</h1><img src="./src/assets/react.svg" width={40}></img></div>
-                        <div className="card"><h1>HTML</h1><img src="./src/assets/html.png" width={40}></img></div>
-                        <div className="card"><h1>CSS</h1><img src="./src/assets/css.png" width={40}></img></div>
-                        <div className="card"><h1>TypeScript</h1><img src="./src/assets/typescript.png" width={40}></img></div>
-                        <div className="card"><h1>React</h1><img src="./src/assets/react.svg" width={40}></img></div>
-                        <div className="card"><h1>HTML</h1><img src="./src/assets/html.png" width={40}></img></div>
-                        <div className="card"><h1>CSS</h1><img src="./src/assets/css.png" width={40}></img></div>
-                        <div className="card"><h1>TypeScript</h1><img src="./src/assets/typescript.png" width={40}></img></div>
-                        <div className="card"><h1>React</h1><img src="./src/assets/react.svg" width={40}></img></div>
-                        <div className="card"><h1>HTML</h1><img src="./src/assets/html.png" width={40}></img></div>
-                        <div className="card"><h1>CSS</h1><img src="./src/assets/css.png" width={40}></img></div>
-                        <div className="card"><h1>TypeScript</h1><img src="./src/assets/typescript.png" width={40}></img></div>
-                        <div className="card"><h1>React</h1><img src="./src/assets/react.svg" width={40}></img></div>
-                        <div className="card"><h1>HTML</h1><img src="./src/assets/html.png" width={40}></img></div>
-                        <div className="card"><h1>CSS</h1><img src="./src/assets/css.png" width={40}></img></div>
-                        <div className="card"><h1>TypeScript</h1><img src="./src/assets/typescript.png" width={40}></img></div>
-                        <div className="card"><h1>React</h1><img src="./src/assets/react.svg" width={40}></img></div>
-                        <div className="card"><h1>HTML</h1><img src="./src/assets/html.png" width={40}></img></div>
-                        <div className="card"><h1>CSS</h1><img src="./src/assets/css.png" width={40}></img></div>
+                        <div className="card"><h1>TypeScript</h1><img src="typescript.png" width={40}></img></div>
+                        <div className="card"><h1>React</h1><img src="react.svg" width={40}></img></div>
+                        <div className="card"><h1>HTML</h1><img src="html.png" width={40}></img></div>
+                        <div className="card"><h1>CSS</h1><img src="css.png" width={40}></img></div>
+                        <div className="card"><h1>TypeScript</h1><img src="typescript.png" width={40}></img></div>
+                        <div className="card"><h1>React</h1><img src="react.svg" width={40}></img></div>
+                        <div className="card"><h1>HTML</h1><img src="html.png" width={40}></img></div>
+                        <div className="card"><h1>CSS</h1><img src="css.png" width={40}></img></div>
+                        <div className="card"><h1>TypeScript</h1><img src="typescript.png" width={40}></img></div>
+                        <div className="card"><h1>React</h1><img src="react.svg" width={40}></img></div>
+                        <div className="card"><h1>HTML</h1><img src="html.png" width={40}></img></div>
+                        <div className="card"><h1>CSS</h1><img src="css.png" width={40}></img></div>
+                        <div className="card"><h1>TypeScript</h1><img src="typescript.png" width={40}></img></div>
+                        <div className="card"><h1>React</h1><img src="react.svg" width={40}></img></div>
+                        <div className="card"><h1>HTML</h1><img src="html.png" width={40}></img></div>
+                        <div className="card"><h1>CSS</h1><img src="css.png" width={40}></img></div>
+                        <div className="card"><h1>TypeScript</h1><img src="typescript.png" width={40}></img></div>
+                        <div className="card"><h1>React</h1><img src="react.svg" width={40}></img></div>
+                        <div className="card"><h1>HTML</h1><img src="html.png" width={40}></img></div>
+                        <div className="card"><h1>CSS</h1><img src="css.png" width={40}></img></div>
                     </div>
                     <div aria-hidden id="feGroup1" className="group">
-                        <div className="card"><h1>TypeScript</h1><img src="./src/assets/typescript.png" width={40}></img></div>
-                        <div className="card"><h1>React</h1><img src="./src/assets/react.svg" width={40}></img></div>
-                        <div className="card"><h1>HTML</h1><img src="./src/assets/html.png" width={40}></img></div>
-                        <div className="card"><h1>CSS</h1><img src="./src/assets/css.png" width={40}></img></div>
-                        <div className="card"><h1>TypeScript</h1><img src="./src/assets/typescript.png" width={40}></img></div>
-                        <div className="card"><h1>React</h1><img src="./src/assets/react.svg" width={40}></img></div>
-                        <div className="card"><h1>HTML</h1><img src="./src/assets/html.png" width={40}></img></div>
-                        <div className="card"><h1>CSS</h1><img src="./src/assets/css.png" width={40}></img></div>
-                        <div className="card"><h1>TypeScript</h1><img src="./src/assets/typescript.png" width={40}></img></div>
-                        <div className="card"><h1>React</h1><img src="./src/assets/react.svg" width={40}></img></div>
-                        <div className="card"><h1>HTML</h1><img src="./src/assets/html.png" width={40}></img></div>
-                        <div className="card"><h1>CSS</h1><img src="./src/assets/css.png" width={40}></img></div>
-                        <div className="card"><h1>TypeScript</h1><img src="./src/assets/typescript.png" width={40}></img></div>
-                        <div className="card"><h1>React</h1><img src="./src/assets/react.svg" width={40}></img></div>
-                        <div className="card"><h1>HTML</h1><img src="./src/assets/html.png" width={40}></img></div>
-                        <div className="card"><h1>CSS</h1><img src="./src/assets/css.png" width={40}></img></div>
-                        <div className="card"><h1>TypeScript</h1><img src="./src/assets/typescript.png" width={40}></img></div>
-                        <div className="card"><h1>React</h1><img src="./src/assets/react.svg" width={40}></img></div>
-                        <div className="card"><h1>HTML</h1><img src="./src/assets/html.png" width={40}></img></div>
-                        <div className="card"><h1>CSS</h1><img src="./src/assets/css.png" width={40}></img></div>
+                        <div className="card"><h1>TypeScript</h1><img src="typescript.png" width={40}></img></div>
+                        <div className="card"><h1>React</h1><img src="react.svg" width={40}></img></div>
+                        <div className="card"><h1>HTML</h1><img src="html.png" width={40}></img></div>
+                        <div className="card"><h1>CSS</h1><img src="css.png" width={40}></img></div>
+                        <div className="card"><h1>TypeScript</h1><img src="typescript.png" width={40}></img></div>
+                        <div className="card"><h1>React</h1><img src="react.svg" width={40}></img></div>
+                        <div className="card"><h1>HTML</h1><img src="html.png" width={40}></img></div>
+                        <div className="card"><h1>CSS</h1><img src="css.png" width={40}></img></div>
+                        <div className="card"><h1>TypeScript</h1><img src="typescript.png" width={40}></img></div>
+                        <div className="card"><h1>React</h1><img src="react.svg" width={40}></img></div>
+                        <div className="card"><h1>HTML</h1><img src="html.png" width={40}></img></div>
+                        <div className="card"><h1>CSS</h1><img src="css.png" width={40}></img></div>
+                        <div className="card"><h1>TypeScript</h1><img src="typescript.png" width={40}></img></div>
+                        <div className="card"><h1>React</h1><img src="react.svg" width={40}></img></div>
+                        <div className="card"><h1>HTML</h1><img src="html.png" width={40}></img></div>
+                        <div className="card"><h1>CSS</h1><img src="css.png" width={40}></img></div>
+                        <div className="card"><h1>TypeScript</h1><img src="typescript.png" width={40}></img></div>
+                        <div className="card"><h1>React</h1><img src="react.svg" width={40}></img></div>
+                        <div className="card"><h1>HTML</h1><img src="html.png" width={40}></img></div>
+                        <div className="card"><h1>CSS</h1><img src="css.png" width={40}></img></div>
                     </div>
                 </div>
             </div><br />
@@ -60,40 +60,40 @@ function Skills() {
                 <div id="backNames" className="skillNames">
                     <div id="backCards" className="carousel">
                         <div id="BeGroup1" className="group">
-                            <div className="card"><h1>Java</h1><img src="./src/assets/java.png" width={40}></img></div>
-                            <div className="card"><h1>MySQL</h1><img src="./src/assets/mysql.svg" width={40}></img></div>
-                            <div className="card"><h1>postgreSQL</h1><img src="./src/assets/postsql.png" width={40}></img></div>
-                            <div className="card"><h1>Springboot</h1><img src="./src/assets/springboot.png" width={40}></img></div>
-                            <div className="card"><h1>Java</h1><img src="./src/assets/java.png" width={40}></img></div>
-                            <div className="card"><h1>MySQL</h1><img src="./src/assets/mysql.svg" width={40}></img></div>
-                            <div className="card"><h1>postgreSQL</h1><img src="./src/assets/postsql.png" width={40}></img></div>
-                            <div className="card"><h1>Springboot</h1><img src="./src/assets/springboot.png" width={40}></img></div>
-                            <div className="card"><h1>Java</h1><img src="./src/assets/java.png" width={40}></img></div>
-                            <div className="card"><h1>MySQL</h1><img src="./src/assets/mysql.svg" width={40}></img></div>
-                            <div className="card"><h1>postgreSQL</h1><img src="./src/assets/postsql.png" width={40}></img></div>
-                            <div className="card"><h1>Springboot</h1><img src="./src/assets/springboot.png" width={40}></img></div>
-                            <div className="card"><h1>Java</h1><img src="./src/assets/java.png" width={40}></img></div>
-                            <div className="card"><h1>MySQL</h1><img src="./src/assets/mysql.svg" width={40}></img></div>
-                            <div className="card"><h1>postgreSQL</h1><img src="./src/assets/postsql.png" width={40}></img></div>
-                            <div className="card"><h1>Springboot</h1><img src="./src/assets/springboot.png" width={40}></img></div>
+                            <div className="card"><h1>Java</h1><img src="java.png" width={40}></img></div>
+                            <div className="card"><h1>MySQL</h1><img src="mysql.svg" width={40}></img></div>
+                            <div className="card"><h1>postgreSQL</h1><img src="postsql.png" width={40}></img></div>
+                            <div className="card"><h1>Springboot</h1><img src="springboot.png" width={40}></img></div>
+                            <div className="card"><h1>Java</h1><img src="java.png" width={40}></img></div>
+                            <div className="card"><h1>MySQL</h1><img src="mysql.svg" width={40}></img></div>
+                            <div className="card"><h1>postgreSQL</h1><img src="postsql.png" width={40}></img></div>
+                            <div className="card"><h1>Springboot</h1><img src="springboot.png" width={40}></img></div>
+                            <div className="card"><h1>Java</h1><img src="java.png" width={40}></img></div>
+                            <div className="card"><h1>MySQL</h1><img src="mysql.svg" width={40}></img></div>
+                            <div className="card"><h1>postgreSQL</h1><img src="postsql.png" width={40}></img></div>
+                            <div className="card"><h1>Springboot</h1><img src="springboot.png" width={40}></img></div>
+                            <div className="card"><h1>Java</h1><img src="java.png" width={40}></img></div>
+                            <div className="card"><h1>MySQL</h1><img src="mysql.svg" width={40}></img></div>
+                            <div className="card"><h1>postgreSQL</h1><img src="postsql.png" width={40}></img></div>
+                            <div className="card"><h1>Springboot</h1><img src="springboot.png" width={40}></img></div>
                         </div>
                         <div id="BeGroup1" className="group">
-                            <div className="card"><h1>Java</h1><img src="./src/assets/java.png" width={40}></img></div>
-                            <div className="card"><h1>MySQL</h1><img src="./src/assets/mysql.svg" width={40}></img></div>
-                            <div className="card"><h1>postgreSQL</h1><img src="./src/assets/postsql.png" width={40}></img></div>
-                            <div className="card"><h1>Springboot</h1><img src="./src/assets/springboot.png" width={40}></img></div>
-                            <div className="card"><h1>Java</h1><img src="./src/assets/java.png" width={40}></img></div>
-                            <div className="card"><h1>MySQL</h1><img src="./src/assets/mysql.svg" width={40}></img></div>
-                            <div className="card"><h1>postgreSQL</h1><img src="./src/assets/postsql.png" width={40}></img></div>
-                            <div className="card"><h1>Springboot</h1><img src="./src/assets/springboot.png" width={40}></img></div>
-                            <div className="card"><h1>Java</h1><img src="./src/assets/java.png" width={40}></img></div>
-                            <div className="card"><h1>MySQL</h1><img src="./src/assets/mysql.svg" width={40}></img></div>
-                            <div className="card"><h1>postgreSQL</h1><img src="./src/assets/postsql.png" width={40}></img></div>
-                            <div className="card"><h1>Springboot</h1><img src="./src/assets/springboot.png" width={40}></img></div>
-                            <div className="card"><h1>Java</h1><img src="./src/assets/java.png" width={40}></img></div>
-                            <div className="card"><h1>MySQL</h1><img src="./src/assets/mysql.svg" width={40}></img></div>
-                            <div className="card"><h1>postgreSQL</h1><img src="./src/assets/postsql.png" width={40}></img></div>
-                            <div className="card"><h1>Springboot</h1><img src="./src/assets/springboot.png" width={40}></img></div>
+                            <div className="card"><h1>Java</h1><img src="java.png" width={40}></img></div>
+                            <div className="card"><h1>MySQL</h1><img src="mysql.svg" width={40}></img></div>
+                            <div className="card"><h1>postgreSQL</h1><img src="postsql.png" width={40}></img></div>
+                            <div className="card"><h1>Springboot</h1><img src="springboot.png" width={40}></img></div>
+                            <div className="card"><h1>Java</h1><img src="java.png" width={40}></img></div>
+                            <div className="card"><h1>MySQL</h1><img src="mysql.svg" width={40}></img></div>
+                            <div className="card"><h1>postgreSQL</h1><img src="postsql.png" width={40}></img></div>
+                            <div className="card"><h1>Springboot</h1><img src="springboot.png" width={40}></img></div>
+                            <div className="card"><h1>Java</h1><img src="java.png" width={40}></img></div>
+                            <div className="card"><h1>MySQL</h1><img src="mysql.svg" width={40}></img></div>
+                            <div className="card"><h1>postgreSQL</h1><img src="postsql.png" width={40}></img></div>
+                            <div className="card"><h1>Springboot</h1><img src="springboot.png" width={40}></img></div>
+                            <div className="card"><h1>Java</h1><img src="java.png" width={40}></img></div>
+                            <div className="card"><h1>MySQL</h1><img src="mysql.svg" width={40}></img></div>
+                            <div className="card"><h1>postgreSQL</h1><img src="postsql.png" width={40}></img></div>
+                            <div className="card"><h1>Springboot</h1><img src="springboot.png" width={40}></img></div>
                         </div>
                     </div>
                 </div>
