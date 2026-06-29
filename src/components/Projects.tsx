@@ -50,8 +50,8 @@ function Projects() {
                         <p>Built with</p>
                         JavaScript<br />React<br />React router
                     </h3>
-                    <p>More info on</p>
-                    <button className="linkBtn"><img src="github.png" width={20}></img> <a id="sclBtn" href="https://github.com/ragnardgreat/store-app" target="_blank">GitHub</a></button>
+                    <p> Images and video demonstrations</p>
+                    <button className="linkBtn"><img src="github.png" width={20}></img> <a id="realBtn" href="https://github.com/ragnardgreat/store-app" target="_blank">GitHub</a></button>
                 </div>
             </div>
 
@@ -72,7 +72,7 @@ function Projects() {
                         <p>Built with</p>
                         Node.js/express<br />JavaScript<br />React<br /> MySQL
                     </h3>
-                    <p>More info on</p>
+                    <p> Images and video demonstrations</p>
                     <button className="linkBtn"><img src="github.png" width={20}></img> <a id="sclBtn" href="https://github.com/ragnardgreat/scl-app" target="_blank">GitHub</a></button>
                 </div>
             </div>
@@ -91,7 +91,7 @@ function Projects() {
                         <p>Built with</p>
                         Java<br />Spring Boot<br /> TypeScript<br />React<br /> PostgreSQL
                     </h3>
-                    <p>More info on</p>
+                    <p> Images and video demonstrations</p>
                     <button className="linkBtn"><img src="github.png" width={20}></img> <a id="minibtn" href="https://github.com/Shargathx/Cinimini_project" target="_blank">GitHub</a></button>
                 </div>
             </div>
