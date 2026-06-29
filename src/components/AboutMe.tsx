@@ -19,7 +19,7 @@ function AboutMe() {
                     I took a gap year in 2024 to focus on improving my web development skills.<br />In the long run, I believe it has paid off, due to the knowledge and skills I accquired.<br />
                     I have over 12 years of experience using and working with computers, much of which came from my time studying in Saku Gümnaasium,<br />
                     where I learned about computers and programming.<br /> Alongside my studies, I learned software development independently.<br />
-                    I also took part in <a style={{ color: "#DCF900", WebkitTextStroke: "3px black", fontWeight: "bold", paintOrder: "stroke fill" }} href='https://kood.tech/en/' target='_blank'>kood/Jõhvi</a>
+                    I also took part in <a style={{ color: "#DCF900", WebkitTextStroke: "3px black", fontWeight: "bold", paintOrder: "stroke fill" }} href='https://kood.tech/en/' target='_blank'>kood/Jõhvi </a>
                     sprint in 2024, but sadly I lacked the necessary skills/knowledge to pass.</h3>
 
                 <h1 id='skills' style={{ background: "#03fcdf", width: "fit-content", padding: '10px', color: "black" }}>Skills and Teamwork:</h1>
