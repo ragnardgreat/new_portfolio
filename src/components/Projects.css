@@ -53,6 +53,12 @@
     padding: 20px;
 }
 
+.showcase {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .projectContainer>ul {
     list-style-type: none;
 }

@@ -13,15 +13,15 @@ function AboutMe() {
                 </h3>
 
                 <h1 id='education' style={{ background: "#60c74c", width: "fit-content", padding: '10px', color: "black" }}>Education:</h1>
-                <h3>Main sources for education were YouTube and FreeCodeCamp, and now also Tallin University
-                I took a gap year just to focus and hone in on web development, and in the long run I do believe it paid off, due to the knowledge and skills I accquired.
-                I have an extensive history ( 12 years ) with computers, which mostly came from my time studying in Saku Gümnaasium,<br />
-                    where I learned about computers and programming, on the side I studied software development.</h3>
+                <h3>Main sources for education were YouTube and FreeCodeCamp, and now also Tallinn University
+                I took a gap year in 2024 just to focus and hone in on web development, and in the long run I do believe it paid off, due to the knowledge and skills I accquired.
+                I have an extensive history ( 12 years ) with computers, which mostly came from my time studying in Saku Gümnaasium,
+                where I learned about computers and programming and on the side I studied software development more extensively.</h3>
 
                 <h1 id='skills' style={{ background: "#03fcdf", width: "fit-content", padding: '10px', color: "black" }}>Skills and Teamwork:</h1>
                 <h3>I have built may different projects, where my roles have been frontend, backend and/or full-stack developer in multi-member teams.
                 I am comfortable both in frontend and backend development, but prefer a focus on frontend.
-                <h3>I work well with other people and in groups, and also don't mind working alone.</h3></h3>
+                <h3>I work well with other people and in groups, also don't mind working alone.</h3></h3>
             </div>
         </div>
     )
