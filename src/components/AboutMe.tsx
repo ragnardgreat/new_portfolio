@@ -5,7 +5,7 @@ function AboutMe() {
 
     return (
         <div id='aboutMeContainer'>
-            <div id='aboutImgContainer'><img id='aboutImg' src='../src/assets/pilt2.jpg' width={300}></img></div>
+            <div id='aboutImgContainer'><img id='aboutImg' src='pilt2.jpg' width={300}></img></div>
             <div id='aboutMeText'>
                 <h1 style={{ background: "#ff4545", width: "fit-content", padding: '10px', color: "black" }}>About Me:</h1>
                 <h3>Hello, my name is Roland!<br></br>Currently I am a second year student at Tallinn University, but before enrolling, I already had Web development experience of 3+ years from studying on my own. <br></br>
