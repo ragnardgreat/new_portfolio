@@ -4,22 +4,22 @@ function Projects() {
 
     window.addEventListener("scroll", () => {
         if (checkVisible(document.getElementById("realLogo")!)) {
-            document.getElementById("webstore").style.animation = "slideIn 1s forwards"
+            document.getElementById("webstore")!.style.animation = "slideIn 1s forwards"
         }
         else {
-            document.getElementById("webstore").style.animation = "slideOut 1s forwards"
+            document.getElementById("webstore")!.style.animation = "slideOut 1s forwards"
         }
         if (checkVisible(document.getElementById("sclLogo")!)) {
-            document.getElementById("scl").style.animation = "slideIn 1s forwards"
+            document.getElementById("scl")!.style.animation = "slideIn 1s forwards"
         }
         else {
-            document.getElementById("scl").style.animation = "slideOut 1s forwards"
+            document.getElementById("scl")!.style.animation = "slideOut 1s forwards"
         }
         if (checkVisible(document.getElementById("miniLogo")!)) {
-            document.getElementById("minikino").style.animation = "slideIn 1s forwards"
+            document.getElementById("minikino")!.style.animation = "slideIn 1s forwards"
         }
         else {
-            document.getElementById("minikino").style.animation = "slideOut 1s forwards"
+            document.getElementById("minikino")!.style.animation = "slideOut 1s forwards"
         }
     })
 
